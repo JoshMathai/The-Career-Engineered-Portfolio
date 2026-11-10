@@ -41,6 +41,8 @@ a:hover {
 }
 
 .nav {
+  flex-wrap: wrap;
+  gap: 18px;
   max-width: 860px;
   margin: 0 auto;
   padding: 16px 18px;
@@ -56,6 +58,7 @@ a:hover {
 
 .nav-links {
   display: flex;
+  flex-wrap: wrap;
   gap: 18px;
 }
 
