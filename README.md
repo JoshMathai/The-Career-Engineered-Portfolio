@@ -36,20 +36,22 @@ Issue: pending · Owner response: pending · Accepted change: pending · Verific
 
 ### Verification log
 
-- Employer sources: retrieved November 10, 2026; details and source/date limitations appear beside each role.
+- Employer sources: retrieved November 10, 2026; details and source/date limitations appear beside each role. All 17 distinct external research links returned HTTP 200; Palantir succeeded on retry after a temporary 502.
 - Local HTML, fragment, and asset checks: passed November 10; reproduce with `python3 scripts/check_site.py`.
 - Browser/mobile/keyboard checks: not run. Browser preview access was declined by the browser security gate. Responsive CSS, native links, headings, a skip link, and focus styles are present; these are not a substitute for an actual browser check.
-- GitHub Pages deployment and live research URL: pending.
+- GitHub Pages: both research URLs returned HTTP 200 on November 10, and their HTML matched the pushed source byte-for-byte. [Pages deployment/check log](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/actions/runs/42889246638).
 - Partner review and reviewer retry: not run.
 - Cross-links: both research sites link to each other, their source, and this record.
 
 ### Canvas short update
 
+Change: [research implementation commit](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/commit/156a06ed409374104073603fe0ca0a8633f74d5b) · Check: [reproducible checker](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/blob/156a06ed409374104073603fe0ca0a8633f74d5b/scripts/check_site.py) and [deployment log](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/actions/runs/42889246638). Peer issue/change/retry links remain pending real feedback.
+
 Current work: [career research site](https://joshmathai.github.io/The-Career-Engineered-Portfolio/research/) · [repository](https://github.com/JoshMathai/The-Career-Engineered-Portfolio) · [same project record](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/blob/main/README.md#portfolio-plan-record). Add the actual review issue/change/check links after review; do not claim pending work is complete.
 
 Changed / Added source-based career research, public direction comparison, and two portfolio layout drafts.
 
-Checked / Three original employer descriptions; see verification log for implementation and deployment status. Partner review not run.
+Checked / Original sources and external links, local link/fragment checks, and both published pages matching source; browser and partner checks not run.
 
 Next / Present both sites to a partner, record feedback and retry, and validate the proposed programming topic.
 
