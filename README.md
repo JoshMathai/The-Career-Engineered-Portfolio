@@ -61,6 +61,8 @@ Updated November 11, 2026 · IS218–003 · Plan due November 12, 2026, 2:30 p.m
 
 [Coin Dash research site](https://joshmathai.github.io/The-Career-Engineered-Portfolio/programming-research/) · [repository/source](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/tree/main/programming-research) · [career research site](https://joshmathai.github.io/The-Career-Engineered-Portfolio/research/).
 
+Website navigation now has a direct **Creative Project** tab for Coin Dash, alongside **Career Research**. Both remain separate pages with their own Plan records and cross-links.
+
 ### Owner decision and Plan scope
 
 Josh selected **Coin Dash** on November 11, replacing Synthetic Log Lab. Run to collect a coin within ten seconds; each collection resets the timer. Difficulty gradually reduces available coins from six to a minimum of two and increases placement distance. At every reset, at least one coin must be reachable with reaction time allowed, but the player chooses which to chase without a safe-coin marker. Poor choices can still lose. All initial tuning values are hypotheses.
