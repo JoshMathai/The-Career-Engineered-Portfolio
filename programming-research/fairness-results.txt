@@ -1,0 +1,8 @@
+Coin Dash fairness planning probe | November 11, 2026 | seed 218
+Assumptions: 60x40 arena, speed 5 units/s, 10-second timer, 2-second reserve.
+Maximum safe path: 40 units; minimum distance capped at 30 units.
+Random-only baseline: 162/5000 layouts had no reachable coin.
+Guarded placement: 5000/5000 sampled layouts had a reachable coin.
+PASS: counts, minimum distance, bounds, uniqueness, 30 forced fallbacks, distance boundary.
+Limits: mathematical sampling, not Godot gameplay or a universal proof.
+No acceleration, turning cost, collision, camera, frame timing, or human reaction measured.

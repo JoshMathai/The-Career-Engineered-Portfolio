@@ -8,7 +8,7 @@ assignees: ''
 
 ## Actual reviewer task
 Reviewer handle, date, page URL, browser/device:
-Trace the JSON source → fixture format → deterministic-analysis choice → expected check. Explain a limit and identify an unclear step in the account journey.
+Trace Timer documentation → ten-second reset rule → Coin Dash gameplay story. Explain why at least one of the last two coins is reachable without a safe marker, and what the model does not establish. Compare the two first-screen sketches and identify an unclear rule or account-journey step.
 
 ## Specific observation
 Task attempted:
