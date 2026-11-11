@@ -82,7 +82,7 @@ AI assisted the plan and mathematical probe. Source capabilities were verified a
 - **Limit:** a fixed-seed geometric sample, not a universal proof or human/gameplay fairness result. No timer/collision, Godot browser export, account/database, or actual gameplay checks have run.
 - **Site checks:** `python3 scripts/check_site.py` passed for three HTML pages and 31 local references; unique IDs, one main heading per page, language/viewport metadata, and résumé PDF signature checked. Browser visual/mobile/keyboard checks remain unrun after the earlier preview denial.
 - **Source-link check:** all eight technical/course links on the Coin Dash page returned HTTP 200 on November 11.
-- **Change:** [Coin Dash revision compared with the previous plan](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/compare/fd4febd...main). Publication verification follows the push. Peer feedback remains separate from this implementation.
+- **Change:** [Coin Dash implementation commit](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/commit/3421ddd) · [successful GitHub Pages deployment](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/actions/runs/43048026814). The live Coin Dash page, probe source, and result file returned HTTP 200 and matched the pushed files byte-for-byte on November 11. Peer feedback remains separate from this implementation.
 
 **Next experiment:** make a primitive Godot arena, verify a single-thread Compatibility web export, and measure actual time to one of the last two coins. Tune distance/reserve after a short partner session. The [five stories and checks](programming-research/index.html#plan) also cover replay, score persistence, private data, and account maintenance for later work. Compare a simple spawn function with a placement-strategy interface; retain the simpler design unless the interface helps compare the two policies.
 
@@ -96,10 +96,10 @@ Issue: pending · Owner response: pending · Accepted peer change: pending · Ve
 
 ### Creative Project Plan — Canvas short update
 
-Current work: [Coin Dash research site](https://joshmathai.github.io/The-Career-Engineered-Portfolio/programming-research/) · [repository](https://github.com/JoshMathai/The-Career-Engineered-Portfolio) · [same project record](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/blob/main/README.md#creative-project-plan-record) · [fairness check source](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/blob/main/programming-research/fairness_probe.py) and [actual output](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/blob/main/programming-research/fairness-results.txt). Add actual peer issue/change/retry links when available.
+Current work: [Coin Dash research site](https://joshmathai.github.io/The-Career-Engineered-Portfolio/programming-research/) · [repository](https://github.com/JoshMathai/The-Career-Engineered-Portfolio) · [same project record](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/blob/main/README.md#creative-project-plan-record) · [fairness check source](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/blob/main/programming-research/fairness_probe.py) and [actual output](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/blob/main/programming-research/fairness-results.txt). [Implementation change](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/commit/3421ddd) · [successful publication check](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/actions/runs/43048026814). Add actual peer issue/change/retry links when available.
 
 Changed / Replaced Synthetic Log Lab with Coin Dash: rules, two concepts, audience/layout options, sources, stack comparison, five stories, and account/data plan.
 
-Checked / Original technical sources, local site references, and a 5,000-layout fairness model. Engine/gameplay/account/browser and partner checks not run.
+Checked / Original technical sources, local site references, a 5,000-layout fairness model, and published files matching source after successful Pages deployment. Engine/gameplay/account/browser and partner checks not run.
 
 Next / Build the greybox, test the ten-second rule and browser export, and complete real partner feedback and retry.
