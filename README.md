@@ -55,6 +55,57 @@ Checked / Original sources and external links, local link/fragment checks, and b
 
 Next / Present both sites to a partner and record feedback and retry. Coin Dash is now the owner-selected programming topic.
 
+<a id="portfolio-review-2"></a>
+## Portfolio Review 2 — First working slice
+
+Updated November 18, 2026 · IS218–003 · Due November 19, 2026, 2:30 p.m. Eastern.
+
+Current work: [A / evidence grid](https://joshmathai.github.io/The-Career-Engineered-Portfolio/) · [B / project journal](https://joshmathai.github.io/The-Career-Engineered-Portfolio/portfolio-story.html) · [repository](https://github.com/JoshMathai/The-Career-Engineered-Portfolio). This continues the portfolio record above; no separate report is required.
+
+### Draft and design decision
+
+Both options use the **same introduction, case studies, résumé, profile/repository links, and contact action**, generated from [one content template](portfolio/page.html.template) by `python3 scripts/build_portfolio.py`. A uses an evidence grid with a compact current-work index. B uses a journal-style introduction and sequential project rows. The two HTML pages are lightweight presentation options within one website.
+
+Provisionally retain A for an entry-level NJ/NY IT/cybersecurity reviewer who needs to scan status and evidence quickly. B gives explanations more space but takes longer to scan. This is a design judgment informed by the [existing audience/design research](research/index.html#design), not a measured hiring or usability result. A real reader should compare the same task in both options before the choice is called validated. Black styling, white actions, HTML/CSS, and GitHub Pages follow the existing AGENTS.md. No game development was resumed for this portfolio update.
+
+### Case studies and accurate scope
+
+- **Coin Dash, individual creative project:** the owner-selected rules and fairness decision, research, AI-assisted probe, actual output, limits, and next step. The existing result was reproduced: 162/5,000 random-only layouts had no reachable coin; all 5,000 guarded samples had one. This is a geometric model, not a playable game. Godot/Blender, accounts, saved scores, and real playtesting remain unimplemented; work is paused for the Windows setup.
+- **Museum, earlier individual coursework:** links the published exhibit, its source, and README attribution. The README describes developer-directed design/revisions with ChatGPT and AI image-generation help. Observed November 18: live HTML matches GitHub main and internal fragment targets exist. This does not verify all historical claims, image provenance, browser accessibility, or the whole development history.
+- **Group Customer Studio:** an explicit incomplete case-study section. The team repository, selected customer, actual contribution, other members' work, and cross-review evidence have not been supplied in this chat. They are marked pending confirmation; no completed group contribution is invented. Update this same section when the information is available.
+
+The résumé link retains the exact supplied `Mathai_Resume.pdf`. Own GitHub, LinkedIn, portfolio repository, research pages, and professional email are visible. No résumé claims were rewritten as independently verified qualifications. Private career reflection remains for the private Canvas submission.
+
+### Checks and review
+
+Run from the repository root:
+
+```sh
+python3 scripts/build_portfolio.py --check
+python3 scripts/check_portfolio.py
+python3 scripts/check_site.py
+```
+
+Observed November 18: both generated pages match their template; both have identical main text/links; the case-study sections, layout switch, owned profile links, and résumé target are present; local target/fragment checks passed across four pages and 63 references. [Recorded structural-check output](portfolio/check-results.txt).
+
+External checks: GitHub/repository/museum links returned HTTP 200. LinkedIn returned 999 to the automated request, so its browser accessibility/profile content is **not verified**; the existing owner-supplied profile URL is retained. Browser visual/mobile/keyboard checks remain **not run**, pending fresh browser-preview authorization after the earlier denial. Structural checks do not substitute for those checks or for a real peer task.
+
+Publication: pending verified deployment for this revision. The final change/deployment links will be added after the push.
+
+Give a real partner this task: find the individual project and identify completed versus planned work; find the group contribution or identify the missing evidence; open code/checks, résumé, and profiles; find contact. Repeat in A and B without coaching. Record the first specific obstacle through the [portfolio issue template](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/issues/new?template=portfolio-review.md), decide implement/investigate/defer/decline with a reason, link an accepted change and verification, then have the same reviewer retry before closing a resolved issue.
+
+Peer issue: pending · Decision: pending · Accepted peer change: pending · Verification: pending · Reviewer retry: pending. Automated/AI critique is not claimed as classmate feedback.
+
+### Portfolio Review 2 — Canvas short update
+
+Work: [portfolio draft A](https://joshmathai.github.io/The-Career-Engineered-Portfolio/) and [option B](https://joshmathai.github.io/The-Career-Engineered-Portfolio/portfolio-story.html) · [repository](https://github.com/JoshMathai/The-Career-Engineered-Portfolio) · [same project record](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/blob/main/README.md#portfolio-review-2) · [check source](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/blob/main/scripts/check_portfolio.py) and [actual check output](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/blob/main/portfolio/check-results.txt). Add the actual peer issue/change/retry links when available.
+
+Changed / Built two presentation options from one content source with current case studies, résumé, owned profiles, and contact.
+
+Checked / Same-content generation, local links/fragments, supplied résumé target, and GitHub/museum source links; LinkedIn/browser/peer checks remain unverified or unrun.
+
+Next / Confirm the group contribution, complete browser checks, and record a real partner's issue → response/change → verification → retry.
+
 ## Creative Project Plan record
 
 Updated November 11, 2026 · IS218–003 · Plan due November 12, 2026, 2:30 p.m. Eastern.

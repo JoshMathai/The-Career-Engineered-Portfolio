@@ -1,0 +1,8 @@
+PASS: both presentation pages match one shared content template.
+PASS: A and B have identical main text and links, including three case studies.
+PASS: both layout switches work as local links; one current option on each page.
+PASS: current résumé, owned GitHub/LinkedIn, and portfolio repository links present.
+Limit: structural checks do not establish browser behavior or real peer review.
+PASS: 4 HTML pages; 63 local targets/fragments; unique IDs;
+one H1 per page; language/viewport metadata; résumé PDF signature.
+Limit: does not test external links, visual layout, PDF readability, or keyboard behavior.
