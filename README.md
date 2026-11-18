@@ -90,7 +90,7 @@ Observed November 18: both generated pages match their template; both have ident
 
 External checks: GitHub/repository/museum links returned HTTP 200. LinkedIn returned 999 to the automated request, so its browser accessibility/profile content is **not verified**; the existing owner-supplied profile URL is retained. Browser visual/mobile/keyboard checks remain **not run**, pending fresh browser-preview authorization after the earlier denial. Structural checks do not substitute for those checks or for a real peer task.
 
-Publication: pending verified deployment for this revision. The final change/deployment links will be added after the push.
+Publication observed November 18: both layout pages, stylesheet, current résumé, and check log returned HTTP 200 and matched the pushed files byte-for-byte. [Implementation change](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/commit/b9b71c5) · [successful Pages deployment](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/actions/runs/44347842297).
 
 Give a real partner this task: find the individual project and identify completed versus planned work; find the group contribution or identify the missing evidence; open code/checks, résumé, and profiles; find contact. Repeat in A and B without coaching. Record the first specific obstacle through the [portfolio issue template](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/issues/new?template=portfolio-review.md), decide implement/investigate/defer/decline with a reason, link an accepted change and verification, then have the same reviewer retry before closing a resolved issue.
 
@@ -98,11 +98,11 @@ Peer issue: pending · Decision: pending · Accepted peer change: pending · Ver
 
 ### Portfolio Review 2 — Canvas short update
 
-Work: [portfolio draft A](https://joshmathai.github.io/The-Career-Engineered-Portfolio/) and [option B](https://joshmathai.github.io/The-Career-Engineered-Portfolio/portfolio-story.html) · [repository](https://github.com/JoshMathai/The-Career-Engineered-Portfolio) · [same project record](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/blob/main/README.md#portfolio-review-2) · [check source](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/blob/main/scripts/check_portfolio.py) and [actual check output](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/blob/main/portfolio/check-results.txt). Add the actual peer issue/change/retry links when available.
+Work: [portfolio draft A](https://joshmathai.github.io/The-Career-Engineered-Portfolio/) and [option B](https://joshmathai.github.io/The-Career-Engineered-Portfolio/portfolio-story.html) · [repository](https://github.com/JoshMathai/The-Career-Engineered-Portfolio) · [same project record](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/blob/main/README.md#portfolio-review-2) · [check source](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/blob/main/scripts/check_portfolio.py) and [actual check output](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/blob/main/portfolio/check-results.txt) · [implementation change](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/commit/b9b71c5) · [successful deployment check](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/actions/runs/44347842297). Add the actual peer issue/change/retry links when available.
 
 Changed / Built two presentation options from one content source with current case studies, résumé, owned profiles, and contact.
 
-Checked / Same-content generation, local links/fragments, supplied résumé target, and GitHub/museum source links; LinkedIn/browser/peer checks remain unverified or unrun.
+Checked / Same-content generation, local links/fragments, supplied résumé, GitHub/museum links, and published files matching source; LinkedIn/browser/peer checks remain unverified or unrun.
 
 Next / Confirm the group contribution, complete browser checks, and record a real partner's issue → response/change → verification → retry.
 
