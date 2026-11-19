@@ -131,7 +131,7 @@ The owner supplied the November 19 clarification: this existing Review 2 slot ta
 
 The five stories, tool comparison, proposed data/architecture, and pattern comparison remain in the same research site. Sign-up/sign-in, gameplay, saved results, private history, account maintenance, and their functional checks remain future implementation. The earlier 5,000-layout Python result is an observed geometric-model check only; it does not establish game, account, persistence, or browser-app behavior. Real peer feedback and retry remain pending.
 
-Documentation checks on November 19: local HTML targets/fragments and shared portfolio generation/content checks passed. This revision has not received new browser/visual checks; browser tooling is unavailable in the current session. Publication verification and change links follow the push below.
+Documentation checks on November 19: local HTML targets/fragments and shared portfolio generation/content checks passed. This revision has not received new browser/visual checks; browser tooling is unavailable in the current session. Publication observed November 19: the updated research URL returned HTTP 200 and its HTML matched the pushed source, including the plan-only notice, chosen SPEC, and APP-01 planned check. [SPEC change](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/commit/ec0de02) · [successful deployment check](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/actions/runs/44547800676).
 
 ### November 19 — Canvas submission update
 
@@ -141,7 +141,7 @@ Supporting links: [repository](https://github.com/JoshMathai/The-Career-Engineer
 
 Changed / Updated the Coin Dash research site with the chosen SPEC and the November 19 plan-only scope.
 
-Checked / Documentation links and section targets; APP-01 is planned and unrun, and the earlier geometry probe remains separate observed evidence.
+Checked / Documentation links, section targets, and published HTML matching source after successful deployment. APP-01 is planned and unrun; the earlier geometry probe is separate observed evidence.
 
 Next / Get real partner feedback on the SPEC, then build and test the application in a later implementation stage.
 
