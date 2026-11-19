@@ -119,7 +119,32 @@ Next / Start the group project with teammates and record a real partner's issue 
 
 ## Creative Project Plan record
 
-Updated November 11, 2026 · IS218–003 · Plan due November 12, 2026, 2:30 p.m. Eastern.
+Latest update November 19, 2026 · IS218–003 · Review 2 plan/SPEC checkpoint due November 19, 2026, 2:30 p.m. Eastern. Original Plan checkpoint: November 12 (historical).
+
+### November 19 clarification — plan/SPEC only
+
+The owner supplied the November 19 clarification: this existing Review 2 slot takes the **Creative Project plan/SPEC**, and a working application is not required for this checkpoint. The original working-slice instructions describe later implementation. [Canvas pacing announcement](https://njit.instructure.com/courses/70713/discussion_topics/518687?is_announcement=true). The announcement could not be independently retrieved by the automated reader; the provided clarification governs this update.
+
+**Chosen SPEC:** [Coin Dash project plan](https://joshmathai.github.io/The-Career-Engineered-Portfolio/programming-research/#plan). Build the simple, single-player coin chase with a ten-second reset timer, progressively fewer/farther coins, a minimum of two, and at least one fairly reachable option at each reset. Keep the chosen Godot/GDScript approach, optional Blender assets, and future Django/SQLite account wrapper.
+
+**One named planned check:** [APP-01 — Timer reset, scoring, and expiry](https://joshmathai.github.io/The-Career-Engineered-Portfolio/programming-research/#planned-check). Start at score 0/time 10; collect one coin with about six seconds left; expect exactly +1 point and a reset to ten seconds. Let time expire; expect game-over once with scoring disabled. Replay should reset score/time. **Status: planned, not run in an app.**
+
+The five stories, tool comparison, proposed data/architecture, and pattern comparison remain in the same research site. Sign-up/sign-in, gameplay, saved results, private history, account maintenance, and their functional checks remain future implementation. The earlier 5,000-layout Python result is an observed geometric-model check only; it does not establish game, account, persistence, or browser-app behavior. Real peer feedback and retry remain pending.
+
+Documentation checks on November 19: local HTML targets/fragments and shared portfolio generation/content checks passed. This revision has not received new browser/visual checks; browser tooling is unavailable in the current session. Publication verification and change links follow the push below.
+
+### November 19 — Canvas submission update
+
+Submit this updated research-site link: **https://joshmathai.github.io/The-Career-Engineered-Portfolio/programming-research/**
+
+Supporting links: [repository](https://github.com/JoshMathai/The-Career-Engineered-Portfolio) · [same project record](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/blob/main/README.md#creative-project-plan-record) · [named planned app check](https://joshmathai.github.io/The-Career-Engineered-Portfolio/programming-research/#planned-check) · [documentation-check source](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/blob/main/scripts/check_site.py).
+
+Changed / Updated the Coin Dash research site with the chosen SPEC and the November 19 plan-only scope.
+
+Checked / Documentation links and section targets; APP-01 is planned and unrun, and the earlier geometry probe remains separate observed evidence.
+
+Next / Get real partner feedback on the SPEC, then build and test the application in a later implementation stage.
+
 
 [Coin Dash research site](https://joshmathai.github.io/The-Career-Engineered-Portfolio/programming-research/) · [repository/source](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/tree/main/programming-research) · [career research site](https://joshmathai.github.io/The-Career-Engineered-Portfolio/research/).
 
@@ -158,7 +183,7 @@ Task: trace Timer documentation → ten-second reset rule → gameplay story; ex
 
 Issue: pending · Owner response: pending · Accepted peer change: pending · Verification of peer change: pending · Reviewer retry: pending.
 
-### Creative Project Plan — Canvas short update
+### Original November 12 Plan — historical update
 
 Current work: [Coin Dash research site](https://joshmathai.github.io/The-Career-Engineered-Portfolio/programming-research/) · [repository](https://github.com/JoshMathai/The-Career-Engineered-Portfolio) · [same project record](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/blob/main/README.md#creative-project-plan-record) · [fairness check source](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/blob/main/programming-research/fairness_probe.py) and [actual output](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/blob/main/programming-research/fairness-results.txt). [Implementation change](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/commit/3421ddd) · [successful publication check](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/actions/runs/43048026814). Add actual peer issue/change/retry links when available.
 
