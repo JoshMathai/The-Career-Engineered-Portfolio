@@ -88,7 +88,18 @@ python3 scripts/check_site.py
 
 Observed November 18: both generated pages match their template; both have identical main text/links; the case-study sections, layout switch, owned profile links, and résumé target are present; local target/fragment checks passed across four pages and 63 references. [Recorded structural-check output](portfolio/check-results.txt).
 
-External checks: GitHub/repository/museum links returned HTTP 200. LinkedIn returned 999 to the automated request, so its browser accessibility/profile content is **not verified**; the existing owner-supplied profile URL is retained. Browser visual/mobile/keyboard checks remain **not run**, pending fresh browser-preview authorization after the earlier denial. Structural checks do not substitute for those checks or for a real peer task.
+External checks: GitHub/repository/museum links returned HTTP 200. LinkedIn returned 999 to the automated request, so its profile content is **not verified**; the existing owner-supplied profile URL is retained.
+
+**Browser checks observed November 18, after fresh owner authorization (AI-operated verification, not classmate feedback):**
+
+- Inspected both published layouts at 1280×900 and phone-width viewports of 390×844 and 320×780. Document width stayed within the viewport; case-study body text measured 16px in the current stylesheet. These are browser viewport checks, not physical-device testing or a full accessibility audit.
+- Activated both layout links by keyboard and verified the selected option. Enter on the skip link now focuses `main`; the next Tab reaches the résumé-request action with a visible outline. The case-study disclosure opens with Enter and closes with Space.
+- Opened Career Research and Creative Project from the navigation and verified their expected page headings. The group card and work index visibly say **Not started**.
+- Activated the résumé link by keyboard and reached `Mathai_Resume.pdf`. The file matches the supplied PDF; this browser's inline PDF renderer exposed a blank preview, so inline rendering here remains unverified. The PDF itself was previously rendered and inspected separately.
+- Corrected the group-card style modifier and made the main skip target focusable. Increased small case-study text/labels and replaced the fixed stylesheet query with a content hash after detecting a cached old stylesheet. [Status/readability/focus change](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/commit/c88efc2) · [cache-version fix](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/commit/5070434).
+- Localhost preview remains blocked by a saved browser permission; checks used the deliberately published public site. The temporary local server was stopped. No browser policy was bypassed.
+
+Real peer task, issue, owner response to peer feedback, accepted peer change, and reviewer retry remain pending.
 
 Publication observed November 18: both layout pages, stylesheet, current résumé, and check log returned HTTP 200 and matched the pushed files byte-for-byte. [Implementation change](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/commit/b9b71c5) · [successful Pages deployment](https://github.com/JoshMathai/The-Career-Engineered-Portfolio/actions/runs/44347842297).
 
@@ -102,9 +113,9 @@ Work: [portfolio draft A](https://joshmathai.github.io/The-Career-Engineered-Por
 
 Changed / Built two presentation options from one content source with current case studies, résumé, owned profiles, and contact.
 
-Checked / Same-content generation, local links/fragments, supplied résumé, GitHub/museum links, and published files matching source; LinkedIn/browser/peer checks remain unverified or unrun.
+Checked / Shared content, local links, published files, desktop/phone-width layouts, sampled keyboard paths, and résumé destination. LinkedIn content, inline PDF preview, and real peer review remain unverified or pending.
 
-Next / Start the group project with teammates, complete browser checks, and record a real partner's issue → response/change → verification → retry.
+Next / Start the group project with teammates and record a real partner's issue → response/change → verification → retry; manually confirm the professional profile and PDF preview in a regular browser.
 
 ## Creative Project Plan record
 
