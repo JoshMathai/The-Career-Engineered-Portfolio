@@ -72,7 +72,7 @@ Provisionally retain A for an entry-level NJ/NY IT/cybersecurity reviewer who ne
 
 - **Coin Dash, individual creative project:** the owner-selected rules and fairness decision, research, AI-assisted probe, actual output, limits, and next step. The existing result was reproduced: 162/5,000 random-only layouts had no reachable coin; all 5,000 guarded samples had one. This is a geometric model, not a playable game. Godot/Blender, accounts, saved scores, and real playtesting remain unimplemented; work is paused for the Windows setup.
 - **Museum, earlier individual coursework:** links the published exhibit, its source, and README attribution. The README describes developer-directed design/revisions with ChatGPT and AI image-generation help. Observed November 18: live HTML matches GitHub main and internal fragment targets exist. This does not verify all historical claims, image provenance, browser accessibility, or the whole development history.
-- **Group Customer Studio:** an explicit incomplete case-study section. The team repository, selected customer, actual contribution, other members' work, and cross-review evidence have not been supplied in this chat. They are marked pending confirmation; no completed group contribution is invented. Update this same section when the information is available.
+- **Group Customer Studio:** **not started**, confirmed by Josh on November 18. Customer selection, scope, responsibilities, shared repository, and contribution evidence are next steps. The public case study says that no contribution has been made yet; it will be updated with actual work as the team progresses.
 
 The résumé link retains the exact supplied `Mathai_Resume.pdf`. Own GitHub, LinkedIn, portfolio repository, research pages, and professional email are visible. No résumé claims were rewritten as independently verified qualifications. Private career reflection remains for the private Canvas submission.
 
@@ -104,7 +104,7 @@ Changed / Built two presentation options from one content source with current ca
 
 Checked / Same-content generation, local links/fragments, supplied résumé, GitHub/museum links, and published files matching source; LinkedIn/browser/peer checks remain unverified or unrun.
 
-Next / Confirm the group contribution, complete browser checks, and record a real partner's issue → response/change → verification → retry.
+Next / Start the group project with teammates, complete browser checks, and record a real partner's issue → response/change → verification → retry.
 
 ## Creative Project Plan record
 
